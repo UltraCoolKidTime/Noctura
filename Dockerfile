@@ -5,4 +5,4 @@ RUN npm i -g pnpm
 RUN pnpm i
 RUN npm run build
 EXPOSE 8080
-CMD ["npm", "start"]
+CMD ["node", "index.js"]
